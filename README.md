@@ -1,6 +1,4 @@
 # Go Comparison: `strings.Builder` vs Concatenation Operator (`+`)
-Comparison of the performance of strings.Builder vs the performance of concatenation-operator (+) in Golang.
-
 This repository contains a detailed comparison of the performance between `strings.Builder` and the concatenation operator (`+`) in Golang. The goal is to analyze and illustrate the efficiency and best practices for string concatenation in Go.
 
 ## Table of Contents
