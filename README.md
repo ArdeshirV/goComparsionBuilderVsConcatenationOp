@@ -53,5 +53,4 @@ sleep 1
 Based on the results, you can determine which method is more efficient for your specific use case. Generally, `strings.Builder` is preferred for larger or more complex string concatenations due to its better performance and reduced memory allocations.
 
 ## License
-This project is licensed under the GPLv3+ License
-See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPLv3+ License. See the [LICENSE](LICENSE) file for details.
