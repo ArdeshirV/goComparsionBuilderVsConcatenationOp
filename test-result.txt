@@ -1,0 +1,14 @@
+go build -ldflags "-w -s" -o builder builder.go
+go build -ldflags "-w -s" -o concat concat.go
+
+sleep 1
+/bin/time ./builder
+real	27.387
+user	27.320906
+sys	0.813710
+
+sleep 1
+/bin/time ./concat
+real	322.440
+user	326.339692
+sys	13.55367
