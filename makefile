@@ -1,3 +1,8 @@
+benchmark:
+	mv ./builder.go ./concat.go ../ > /dev/null
+	go test -bench=. -v -count=1  # -benchmem
+	mv ../builder.go ../concat.go ./ > /dev/null
+
 all: builder concat
 
 
